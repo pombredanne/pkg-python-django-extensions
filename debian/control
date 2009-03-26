@@ -12,7 +12,7 @@ Package: python-django-extensions
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-django (>= 1.0.2)
 Recommends: libjs-jquery
-Suggests: python-werkzeug, python-pygraphviz, python-boto
+Suggests: python-werkzeug, python-pygraphviz, python-boto, python-profiler
 Description: Useful extensions for Django projects
  This is a collection of useful third-party tools for projects that use the
  Django web development framework. It provides the management commands:
