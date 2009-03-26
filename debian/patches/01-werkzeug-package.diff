@@ -1,0 +1,18 @@
+
+ Point people towards installing the python-werzeug package, not to download
+ random files from the internet.
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 26 Mar 2009 22:02:40 +0000
+
+diff -urNad /tmp/bp-build/python-django-extensions.orig/django_extensions/management/commands/runserver_plus.py /tmp/bp-build/python-django-extensions/django_extensions/management/commands/runserver_plus.py
+--- python-django-extensions.orig/django_extensions/management/commands/runserver_plus.py	2008-12-14 12:07:49.000000000 +0000
++++ python-django-extensions/django_extensions/management/commands/runserver_plus.py	2008-12-14 12:08:14.000000000 +0000
+@@ -28,7 +28,7 @@
+         try:
+             from werkzeug import run_simple, DebuggedApplication
+         except:
+-            raise CommandError("Werkzeug is required to use runserver_plus.  Please visit http://werkzeug.pocoo.org/download")
++            raise CommandError("Werkzeug is required to use runserver_plus.  Please install `python-werkzeug'")
+ 
+         # usurp django's handler
+         from django.views import debug

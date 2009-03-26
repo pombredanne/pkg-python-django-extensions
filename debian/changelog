@@ -1,0 +1,5 @@
+python-django-extensions (0.4~pre+svn188-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #521349)
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 26 Mar 2009 22:03:20 +0000

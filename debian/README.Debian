@@ -1,0 +1,24 @@
+README.Debian for python-django-extensions
+==========================================
+
+You need to add 'django_extensions' to your INSTALLED_APPS iterable - this
+usually resides in the `settings.py' file. Eg:
+
+  INSTALLED_APPS = (
+      'django.contrib.auth',
+      'django.contrib.contenttypes',
+      'django.contrib.sessions',
+      'django.contrib.sites',
+      'django_extensions',
+       <..>
+  )
+
+Alternatively, you make the application optional with:
+
+  try:
+      import django_extensions
+      INSTALLED_APPS = INSTALLED_APPS + ('django_extensions',)
+  except ImportError:
+      pass
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 26 Mar 2009 22:18:21 +0000

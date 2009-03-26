@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+
+include /usr/share/quilt/quilt.make
+
+get-orig-source:
+	set -e; \
+		PKG=python-django-extensions; VER=0.4~pre; \
+		svn co http://django-command-extensions.googlecode.com/svn/trunk/ $$PKG; \
+		REVISION=`svnversion $$PKG`; \
+		find $$PKG -depth -type d -name ".svn" -print0 | xargs -0 rm -rf; \
+		tar cfz $${PKG}_$${VER}+svn$${REVISION}.orig.tar.gz $$PKG; \
+		rm -rf $$PKG
+
+%:
+	dh $@
+
+build: $(QUILT_STAMPFN)
+	dh $@
+
+clean: unpatch
+	dh $@
+
+override_dh_install:
+	dh_install
+	# Don't embed jQuery
+	ln -sf /usr/share/javascript/jquery/jquery.js \
+		debian/python-django-extensions/usr/lib/`pyversions -d`/site-packages/django_extensions/media/django_extensions/js/jquery.js
