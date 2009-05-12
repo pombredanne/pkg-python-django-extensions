@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-include /usr/share/quilt/quilt.make
-
 get-orig-source:
 	set -ex; \
 		PKG=python-django-extensions; VER=0.4; \
@@ -13,13 +11,7 @@ get-orig-source:
 		rm -rf $$PKG
 
 %:
-	dh $@
-
-build: $(QUILT_STAMPFN)
-	dh $@
-
-clean: unpatch
-	dh $@
+	dh --with quilt $@
 
 override_dh_install:
 	dh_install
