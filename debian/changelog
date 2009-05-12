@@ -1,3 +1,9 @@
+python-django-extensions (0.4~pre+svn188-2) UNRELEASED; urgency=low
+
+  * Upstream moved to Git; update get-orig-source.
+
+ -- Chris Lamb <lamby@debian.org>  Tue, 12 May 2009 21:16:57 +0100
+
 python-django-extensions (0.4~pre+svn188-1) unstable; urgency=low
 
   * Initial release (Closes: #521349)

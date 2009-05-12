@@ -3,12 +3,13 @@
 include /usr/share/quilt/quilt.make
 
 get-orig-source:
-	set -e; \
-		PKG=python-django-extensions; VER=0.4~pre; \
-		svn co http://django-command-extensions.googlecode.com/svn/trunk/ $$PKG; \
-		REVISION=`svnversion $$PKG`; \
-		find $$PKG -depth -type d -name ".svn" -print0 | xargs -0 rm -rf; \
-		tar cfz $${PKG}_$${VER}+svn$${REVISION}.orig.tar.gz $$PKG; \
+	set -ex; \
+		PKG=python-django-extensions; VER=0.4; \
+		git clone git://github.com/django-extensions/django-extensions.git $$PKG; \
+		DATE=`cd $$PKG && git show --pretty=format:"%cD" HEAD | head -n1`; \
+		SUFFIX=`date -d "$$DATE" +%Y%m%d%H%M`; \
+		rm -rf $$PKG/.git; \
+		tar cfz $${PKG}_$$VER+git$${SUFFIX}.orig.tar.gz $$PKG; \
 		rm -rf $$PKG
 
 %:
