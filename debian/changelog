@@ -1,10 +1,10 @@
-python-django-extensions (0.4+git200905112140-1) UNRELEASED; urgency=low
+python-django-extensions (0.4+git200905112140-1) unstable; urgency=low
 
   * New upstream release.
   * Upstream moved to Git; update get-orig-source.
   * Use shorted method of invoking quilt using debhelper 7.
 
- -- Chris Lamb <lamby@debian.org>  Tue, 12 May 2009 21:17:18 +0100
+ -- Chris Lamb <lamby@debian.org>  Tue, 12 May 2009 21:24:00 +0100
 
 python-django-extensions (0.4~pre+svn188-1) unstable; urgency=low
 
