@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+include /usr/share/python/python.mk
+
 get-orig-source:
 	set -ex; \
 		PKG=python-django-extensions; VER=0.4; \
@@ -17,4 +19,4 @@ override_dh_install:
 	dh_install
 	# Don't embed jQuery
 	ln -sf /usr/share/javascript/jquery/jquery.js \
-		debian/python-django-extensions/usr/lib/`pyversions -d`/site-packages/django_extensions/media/django_extensions/js/jquery.js
+		debian/python-django-extensions/$(call py_libdir_sh,`pyversions -d`)/django_extensions/media/django_extensions/js/jquery.js
