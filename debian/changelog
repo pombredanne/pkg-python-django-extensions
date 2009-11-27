@@ -1,4 +1,4 @@
-python-django-extensions (0.4.2pre+git200911182050-1) UNRELEASED; urgency=low
+python-django-extensions (0.4.2pre+git200911182050-1) unstable; urgency=low
 
   * New upstream release.
   * Remove embedded uuid.py code copy used as fallback if "import uuid" fails.
@@ -6,7 +6,7 @@ python-django-extensions (0.4.2pre+git200911182050-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.3.
   * Bump Build-Depends on debhelper to 7.0.50~ for override_* support.
 
- -- Chris Lamb <lamby@debian.org>  Fri, 27 Nov 2009 17:51:25 +0000
+ -- Chris Lamb <lamby@debian.org>  Fri, 27 Nov 2009 17:59:30 +0000
 
 python-django-extensions (0.4+git200905112140-2) unstable; urgency=low
 
