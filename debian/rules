@@ -15,6 +15,10 @@ get-orig-source:
 %:
 	dh --with quilt $@
 
+override_dh_auto_clean:
+	rm -f django_extensions/utils/uuid.py # embedded code copy
+	dh_auto_clean
+
 override_dh_install:
 	dh_install
 	# Don't embed jQuery

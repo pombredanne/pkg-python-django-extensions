@@ -1,6 +1,8 @@
 python-django-extensions (0.4.2pre+git200911182050-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Remove embedded uuid.py code copy used as fallback if "import uuid" fails.
+    (Closes: #555430)
 
  -- Chris Lamb <lamby@debian.org>  Fri, 27 Nov 2009 17:51:25 +0000
 
