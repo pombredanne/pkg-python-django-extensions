@@ -1,3 +1,9 @@
+python-django-extensions (0.4.2pre+git200911182050-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 27 Nov 2009 17:51:25 +0000
+
 python-django-extensions (0.4+git200905112140-2) unstable; urgency=low
 
   * Fix compatibility with Python 2.6 and future Python transitions in general.
