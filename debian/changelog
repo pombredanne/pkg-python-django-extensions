@@ -4,6 +4,7 @@ python-django-extensions (0.4.2pre+git200911182050-1) UNRELEASED; urgency=low
   * Remove embedded uuid.py code copy used as fallback if "import uuid" fails.
     (Closes: #555430)
   * Bump Standards-Version to 3.8.3.
+  * Bump Build-Depends on debhelper to 7.0.50~ for override_* support.
 
  -- Chris Lamb <lamby@debian.org>  Fri, 27 Nov 2009 17:51:25 +0000
 
