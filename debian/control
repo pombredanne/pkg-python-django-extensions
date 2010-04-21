@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Chris Lamb <lamby@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7), python-support
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Vcs-Git: git://git.chris-lamb.co.uk/debian/pkg-python-django-extensions.git
 Vcs-Browser: http://git.chris-lamb.co.uk/?p=debian/pkg-python-django-extensions.git
 Homepage: http://code.google.com/p/django-command-extensions/
