@@ -1,8 +1,7 @@
-
+Author: Chris Lamb <lamby@debian.org>
+Description:
  Point people towards installing the python-werzeug package, not to download
  random files from the internet.
-
- -- Chris Lamb <lamby@debian.org>  Thu, 26 Mar 2009 22:02:40 +0000
 
 diff -urNad /tmp/bp-build/python-django-extensions.orig/django_extensions/management/commands/runserver_plus.py /tmp/bp-build/python-django-extensions/django_extensions/management/commands/runserver_plus.py
 --- python-django-extensions.orig/django_extensions/management/commands/runserver_plus.py	2008-12-14 12:07:49.000000000 +0000
