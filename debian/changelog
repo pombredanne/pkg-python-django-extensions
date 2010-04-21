@@ -3,6 +3,7 @@ python-django-extensions (0.4.2pre+git200911182050-2) UNRELEASED; urgency=low
   * Use find(1) over python.mk to locate embedded jQuery and drop python.mk
     include to help backporters. (Closes: #578599)
   * Bump Standards-Version to 3.8.4.
+  * Move to 3.0 (quilt) source format.
 
  -- Chris Lamb <lamby@debian.org>  Wed, 21 Apr 2010 09:59:58 +0100
 

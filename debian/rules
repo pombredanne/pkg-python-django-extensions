@@ -11,7 +11,7 @@ get-orig-source:
 		rm -rf $$PKG
 
 %:
-	dh --with quilt $@
+	dh $@
 
 override_dh_auto_clean:
 	rm -f django_extensions/utils/uuid.py # embedded code copy
