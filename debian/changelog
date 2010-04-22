@@ -1,3 +1,9 @@
+python-django-extensions (0.4.2pre+git201004211325-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 22 Apr 2010 09:01:42 +0100
+
 python-django-extensions (0.4.2pre+git200911182050-2) unstable; urgency=low
 
   * Use find(1) over python.mk to locate embedded jQuery and drop python.mk
