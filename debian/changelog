@@ -1,6 +1,7 @@
 python-django-extensions (0.4.2pre+git201004211325-1) UNRELEASED; urgency=low
 
   * New upstream snapshot
+  * Refresh 01-werkzeug-package.diff
 
  -- Chris Lamb <lamby@debian.org>  Thu, 22 Apr 2010 09:01:42 +0100
 
