@@ -1,3 +1,9 @@
+python-django-extensions (0.4.2pre+git201004211325-2) UNRELEASED; urgency=low
+
+  * Update Vcs-{Git,Browser}.
+
+ -- Chris Lamb <lamby@debian.org>  Sat, 26 Feb 2011 17:42:24 +0000
+
 python-django-extensions (0.4.2pre+git201004211325-1) unstable; urgency=low
 
   * New upstream snapshot
