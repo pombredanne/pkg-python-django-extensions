@@ -2,6 +2,7 @@ python-django-extensions (0.4.2pre+git201004211325-2) UNRELEASED; urgency=low
 
   * Update Vcs-{Git,Browser}.
   * Bump Standards-Version to 3.9.1.
+  * Bump Standards-Version to 3.9.2.
 
  -- Chris Lamb <lamby@debian.org>  Sat, 26 Feb 2011 17:42:24 +0000
 
