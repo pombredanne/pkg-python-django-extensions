@@ -7,6 +7,7 @@ python-django-extensions (0.6+git201107051902-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.2.
   * Bump base version in get-orig-source target.
   * Add python-keyczar to Suggests.
+  * Update Homepage.
 
  -- Chris Lamb <lamby@debian.org>  Thu, 28 Jul 2011 11:54:10 +0200
 
