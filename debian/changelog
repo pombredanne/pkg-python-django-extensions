@@ -1,11 +1,13 @@
-python-django-extensions (0.4.2pre+git201004211325-2) UNRELEASED; urgency=low
+python-django-extensions (0.6+git201107051902-1) UNRELEASED; urgency=low
 
+  * New upstream release.
+    - Does not depend on keyczar anymore (Closes: #633874)
   * Update Vcs-{Git,Browser}.
   * Bump Standards-Version to 3.9.1.
   * Bump Standards-Version to 3.9.2.
   * Bump base version in get-orig-source target.
 
- -- Chris Lamb <lamby@debian.org>  Sat, 26 Feb 2011 17:42:24 +0000
+ -- Chris Lamb <lamby@debian.org>  Thu, 28 Jul 2011 11:54:10 +0200
 
 python-django-extensions (0.4.2pre+git201004211325-1) unstable; urgency=low
 
