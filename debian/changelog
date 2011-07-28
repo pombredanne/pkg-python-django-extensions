@@ -1,4 +1,4 @@
-python-django-extensions (0.6+git201107051902-1) UNRELEASED; urgency=low
+python-django-extensions (0.6+git201107051902-1) unstable; urgency=low
 
   * New upstream release.
     - Does not depend on keyczar anymore (Closes: #633874)
@@ -9,7 +9,7 @@ python-django-extensions (0.6+git201107051902-1) UNRELEASED; urgency=low
   * Add python-keyczar to Suggests.
   * Update Homepage.
 
- -- Chris Lamb <lamby@debian.org>  Thu, 28 Jul 2011 11:54:10 +0200
+ -- Chris Lamb <lamby@debian.org>  Thu, 28 Jul 2011 12:03:42 +0200
 
 python-django-extensions (0.4.2pre+git201004211325-1) unstable; urgency=low
 
